@@ -14,7 +14,6 @@
 #import "GPNavbarView.h"
 #import "GPBaseNavigationController.h"
 
-#import "GPTabBarRankButton.h"
 #import "GPTabBarButton.h"
 #import "GPTabBar.h"
 
