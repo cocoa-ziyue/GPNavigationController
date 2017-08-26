@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FBSnapshotTestCase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GPNavigationController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GPNavigationController_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GPNavigationController_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>34CD2E3428AB802BACA62286FF5074B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E29800A28EF011E474280F00DD8F201</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67E70EB40868BEA4434772F065F2D043</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>855CBE46F1CE7C427FD9B5A2357A3B47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1B6E7A24EBF618E6852598C0FFCAD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

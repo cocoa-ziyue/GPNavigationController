@@ -1,0 +1,6 @@
+framework module Pods_GPNavigationController_Tests {
+  umbrella header "Pods-GPNavigationController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

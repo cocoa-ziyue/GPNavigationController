@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GPNavigationController (0.1.0):
+    - Reachability
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GPNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  GPNavigationController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GPNavigationController: f37fc930a8c925c729ec77434c7c79b3ddb6d5d1
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: deedf541e9c8fea910e89afd3abeffd3b25833c8
+
+COCOAPODS: 1.3.1
