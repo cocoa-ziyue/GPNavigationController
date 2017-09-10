@@ -24,10 +24,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    //默认设置返回按钮
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    [params setValue:@"navgation_back_btn" forKey:Nav_Left];
-    [self p_setTopTitleDetail:params];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
