@@ -422,7 +422,7 @@ static const NSString *contentFrameKey = @"contentFrameKey";
 }
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (!self.isNeedBluer)) {
+    if (!self.isNeedBluer) {
         return;
     }
     // 删除系统自带的tabBarButton
