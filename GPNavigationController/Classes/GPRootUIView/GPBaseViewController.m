@@ -130,7 +130,7 @@
 
 - (UIAlertView *)alertView {
     if (!_alertView) {
-        _alertView = [[UIAlertView alloc] initWithTitle:nil message:@"宝宝检测到当前网络失去连接,快去开启网络吧。" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+        _alertView = [[UIAlertView alloc] initWithTitle:nil message:@"检测到当前网络失去连接,快去开启网络吧。" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
         _alertView.delegate = self;
     }
     return _alertView;
