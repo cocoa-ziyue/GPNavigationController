@@ -24,8 +24,8 @@
         // 字体大小
         self.titleLabel.font = [UIFont systemFontOfSize:11];
         // 文字颜色
-        [self setTitleColor:GPColor(137, 137, 137) forState:UIControlStateNormal];
-        [self setTitleColor:GPColor(60, 60, 60) forState:UIControlStateSelected];
+        [self setTitleColor:GPColor(85, 103, 115) forState:UIControlStateNormal];
+        [self setTitleColor:GPColor(199,61,31) forState:UIControlStateSelected];
     }
     return self;
 }
@@ -85,4 +85,5 @@
     [self setImage:self.item.image forState:UIControlStateNormal];
     [self setImage:self.item.selectedImage forState:UIControlStateSelected];
 }
+
 @end

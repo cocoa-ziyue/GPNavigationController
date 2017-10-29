@@ -32,6 +32,7 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
+    
     }
     return self;
 }
@@ -96,7 +97,7 @@
 
     // 添加模糊效果
     UIToolbar *toobar = [[UIToolbar alloc] init];
-    toobar.barStyle = UIBarStyleDefault;
+    toobar.barStyle = UIBarStyleBlackTranslucent;
     toobar.translucent = YES;
     toobar.frame = self.bounds;
     [self insertSubview:toobar atIndex:0];
