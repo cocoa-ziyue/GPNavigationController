@@ -63,7 +63,9 @@
     if ([self.delegate respondsToSelector:@selector(tabBar:didSelectedButtonFrom:to:)]) {
         [self.delegate tabBar:self didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
     }
-
+    if ([self.delegate respondsToSelector:@selector(tabBar:currentBtn:didSelectedButtonFrom:to:)]) {
+        [self.delegate tabBar:self currentBtn:button didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
+    }
     // 2.设置按钮的状态
     self.selectedButton.selected = NO;
     button.selected = YES;
