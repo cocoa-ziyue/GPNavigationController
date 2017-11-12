@@ -6,7 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GPTabBar.h"
 
 @interface GPTabViewController : UITabBarController
+
+@property (nonatomic, strong) GPTabBar *customTabBar;       //自定义的tabbar
 
 @end
