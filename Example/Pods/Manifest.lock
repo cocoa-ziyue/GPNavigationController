@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GPNavigationController (0.1.1):
+  - GPNavigationController (0.1.2):
     - Reachability
   - Reachability (3.2)
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GPNavigationController: dcaba369a430d4f2b0f59a1a5e33f6d2d3e3a590
+  GPNavigationController: 2f4fb01f193d48dceb3010ddb62810666338df21
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 PODFILE CHECKSUM: deedf541e9c8fea910e89afd3abeffd3b25833c8
