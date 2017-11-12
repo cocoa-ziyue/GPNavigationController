@@ -80,7 +80,7 @@
     }
 
     // 按钮的frame数据
-    CGFloat buttonH = self.frame.size.height;
+    CGFloat buttonH = 49;
     CGFloat buttonW = self.frame.size.width / self.subviews.count;
     CGFloat buttonY = 0;
 

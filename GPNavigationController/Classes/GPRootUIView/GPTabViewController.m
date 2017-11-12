@@ -7,7 +7,7 @@
 
 #import "GPTabViewController.h"
 
-@interface GPTabViewController () <UITabBarControllerDelegate>
+@interface GPTabViewController ()
 
 @end
 
@@ -41,7 +41,7 @@
 - (void)setupTabbar {
     GPTabBar *customTabBar = [[GPTabBar alloc] init];
     customTabBar.frame = CGRectMake(0, 0, self.tabBar.frame.size.width, TabbarHeight);
-    customTabBar.delegate = self;
+    //customTabBar.delegate = self;
     customTabBar.backgroundColor = [UIColor clearColor];
     [self.tabBar addSubview:customTabBar];
     self.customTabBar = customTabBar;
