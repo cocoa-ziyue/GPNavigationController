@@ -1,6 +1,6 @@
 {
   "name": "GPNavigationController",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "summary": "iOS UI基础框架 GPNavigationController.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ziyue92/GPNavigationController",
@@ -9,16 +9,17 @@
     "file": "LICENSE"
   },
   "authors": {
-    "ziyue92": "shugangpeng@vpgame.cn"
+    "ziyue92": "ziyue92@qq.com"
   },
   "source": {
     "git": "https://github.com/ziyue92/GPNavigationController.git",
-    "tag": "0.1.2"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "GPNavigationController/Classes/**/*",
+  "public_header_files": "GPNavigationController/Classes/**/*.h",
   "dependencies": {
     "Reachability": [
 
