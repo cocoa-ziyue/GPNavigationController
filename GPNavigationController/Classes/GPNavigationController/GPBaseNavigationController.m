@@ -17,7 +17,6 @@ static const NSString *contentImageKey = @"contentImageKey";
 static const NSString *barImageKey = @"barImageKey";
 static const NSString *contentFrameKey = @"contentFrameKey";
 
-
 @interface GPBaseNavigationController () <UIGestureRecognizerDelegate, UINavigationControllerDelegate>
 @property (strong, nonatomic) GPPanGestureRecognizer *pan;
 @property (strong, nonatomic) NSMutableArray *shotStack;
@@ -32,7 +31,7 @@ static const NSString *contentFrameKey = @"contentFrameKey";
 
 @property (assign, nonatomic) CGFloat showViewOffsetScale;
 @property (assign, nonatomic) CGFloat showViewOffset;
-@property (nonatomic, assign) BOOL shouldAutorotate;
+
 @end
 
 
@@ -432,36 +431,6 @@ static const NSString *contentFrameKey = @"contentFrameKey";
     }
 }
 
-- (BOOL)shouldAutorotate {
-    if (!_shouldAutorotate) {
-        return NO;
-    }else{
-        return YES;
-    }
-}
-
-/**
- *  适配旋转的类型
- *
- *  @return 类型
- */
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    if (!_shouldAutorotate) {
-        return UIInterfaceOrientationMaskPortrait;
-    }
-    return UIInterfaceOrientationMaskLandscapeRight;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
-    if (!_shouldAutorotate) {
-        return UIInterfaceOrientationPortrait;
-    }
-    return UIInterfaceOrientationLandscapeRight;
-}
-
-- (void)autorotateInterface:(NSNotification *)notifition {
-    _shouldAutorotate = [notifition.object boolValue];
-}
 
 
 @end

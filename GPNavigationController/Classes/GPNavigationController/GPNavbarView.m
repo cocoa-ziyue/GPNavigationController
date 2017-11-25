@@ -15,12 +15,11 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.navColor? (self.backgroundColor = self.navColor) : (self.backgroundColor = [UIColor blackColor]);
+        self.backgroundColor = [UIColor blackColor];
         [self setBuler];
     }
     return self;
 }
-
 
 #pragma mark -
 #pragma mark private methods
@@ -51,7 +50,10 @@
     CGSize size = CGSizeZero;
     UIFont *font = [UIFont systemFontOfSize:15.0f];
     CGFloat offset = 5;
-
+    if ([[detailDic valueForKey:Nav_BgColor] isKindOfClass:[UIColor class]]) {
+        self.backgroundColor = [detailDic valueForKey:Nav_BgColor];
+    }
+    
     if ([detailDic valueForKey:Nav_Title]) {
         self.baseTitleLbl.backgroundColor = [UIColor clearColor];
         [self addSubview:_baseTitleLbl];

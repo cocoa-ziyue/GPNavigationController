@@ -7,12 +7,19 @@
 //
 
 #import "GPAppDelegate.h"
+#import "ExampleNavigationController.h"
+#import "ExampleViewController.h"
 
 @implementation GPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[ExampleNavigationController alloc] initWithRootViewController:
+                                      [ExampleViewController new]];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

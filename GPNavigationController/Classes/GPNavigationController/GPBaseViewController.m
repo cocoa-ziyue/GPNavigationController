@@ -8,7 +8,6 @@
 
 #import "GPBaseViewController.h"
 #import "Reachability.h"
-#import "GPNavtionBarDefines.h"
 
 @interface GPBaseViewController () <GPNavbarViewDelegate>
 
@@ -47,6 +46,7 @@
 
 - (void)viewWillDisAppear:(BOOL)animated {
     [self viewWillDisAppear:animated];
+    [self p_openPanBackThisVcInApp:YES];
 }
 
 - (void)didReceiveMemoryWarning {

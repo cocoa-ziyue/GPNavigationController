@@ -14,16 +14,16 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GPAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GPViewController.m */; };
+		6003F5A7195388D20070C39A /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ExampleViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		81C0D083C438B1D1A96EC83C /* Pods_GPNavigationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B391678969E3697638A057 /* Pods_GPNavigationController_Example.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EECF75C91FC932AA0025D6AB /* ExampleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECF75C81FC932AA0025D6AB /* ExampleNavigationController.m */; };
+		EECF75CC1FC934790025D6AB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECF75CB1FC934790025D6AB /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		6003F59B195388D20070C39A /* GPNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPNavigationController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* GPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* GPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* GPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* GPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* GPNavigationController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPNavigationController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,13 +59,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		765F349C4A21E53690F7631D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		765F349C4A21E53690F7631D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7C1F3662BCDC5B8AA091F5F8 /* Pods_GPNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EC40A6A8CA31E606BA24E27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BCC763199BE5C6BA7955BC2F /* GPNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GPNavigationController.podspec; path = ../GPNavigationController.podspec; sourceTree = "<group>"; };
+		9EC40A6A8CA31E606BA24E27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCC763199BE5C6BA7955BC2F /* GPNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GPNavigationController.podspec; path = ../GPNavigationController.podspec; sourceTree = "<group>"; };
 		E2B391678969E3697638A057 /* Pods_GPNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECF75C71FC932AA0025D6AB /* ExampleNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleNavigationController.h; sourceTree = "<group>"; };
+		EECF75C81FC932AA0025D6AB /* ExampleNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleNavigationController.m; sourceTree = "<group>"; };
+		EECF75CA1FC934790025D6AB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EECF75CB1FC934790025D6AB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FC620D2B1B4BF487105CF10E /* Pods-GPNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPNavigationController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPNavigationController_Tests/Pods-GPNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,12 +134,14 @@
 		6003F593195388D20070C39A /* Example for GPNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				EECF75C71FC932AA0025D6AB /* ExampleNavigationController.h */,
+				EECF75C81FC932AA0025D6AB /* ExampleNavigationController.m */,
+				EECF75CA1FC934790025D6AB /* DetailViewController.h */,
+				EECF75CB1FC934790025D6AB /* DetailViewController.m */,
 				6003F59C195388D20070C39A /* GPAppDelegate.h */,
 				6003F59D195388D20070C39A /* GPAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GPViewController.h */,
-				6003F5A6195388D20070C39A /* GPViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A5195388D20070C39A /* ExampleViewController.h */,
+				6003F5A6195388D20070C39A /* ExampleViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -279,8 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -408,8 +410,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECF75CC1FC934790025D6AB /* DetailViewController.m in Sources */,
+				EECF75C91FC932AA0025D6AB /* ExampleNavigationController.m in Sources */,
 				6003F59E195388D20070C39A /* GPAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* GPViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* ExampleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,14 +451,6 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -544,6 +540,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -559,6 +556,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -27,7 +27,6 @@
 
 @interface GPNavbarView : UIView
 
-@property (nonatomic,strong) UIColor *navColor;               //导航栏背景颜色
 @property (nonatomic,strong) UIView *redHotView;              //红点
 @property (nonatomic, strong) UILabel *baseTitleLbl;          //导航栏标题
 @property (nonatomic, strong) UIButton *baseLeftBtn;          //导航栏左侧按钮

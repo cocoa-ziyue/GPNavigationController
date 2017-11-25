@@ -8,59 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F979E847846A8AC620B9F5D4686807 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0739DCA677BCBF79F503603F349D5598 /* GPNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B1159EE59A8343C144257BEED3900F /* GPNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5832824296E52E739EF39572DE734145 /* UIApplication+StrictKeyWindow.m */; };
+		0DA0D04EF6E575E4BEF251A4C4EE067C /* GPNavtionBarDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 09640F60376AF62DF5D44A33B4E0EDAA /* GPNavtionBarDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F059CCA60D18164572327005A71DCE9 /* Pods-GPNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5390C5E8F27960DEB37FF23213E6D899 /* Pods-GPNavigationController_Tests-dummy.m */; };
-		0F9979368926171E7E8DCD5AFA7C9C22 /* GPBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D7DDC90C2BCCDAFBA0CF26730F3221 /* GPBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B7541EAC8C1BDA146C7CD7E3C42920 /* GPPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B64985F1F06B10C4200447972B9DB8 /* GPPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		152FBCFA1490FB3DBCC793E1AF316316 /* GPTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE2EF482C87B29002ECB97659078E71 /* GPTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05008D7AA42A70A64FEE9001F9AA96C /* SwiftSupport.swift */; };
 		1E04AC5E5A9A76F8B4BAFC25C8060441 /* Pods-GPNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73489215277C463E750EF6486A7F25CF /* Pods-GPNavigationController_Example-dummy.m */; };
 		23075F23BF7A20C619006994F75A88E0 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA8A9FCCEE5BD5ADE074627856659B /* Reachability-dummy.m */; };
-		28E43E1DBEED9681F2F725C014B777B8 /* GPNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 970BBCCAA4408937688B9576F3410838 /* GPNavigationController-dummy.m */; };
+		28E43E1DBEED9681F2F725C014B777B8 /* GPNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7992F24B8A89D483FA54DA32B8BB75D4 /* GPNavigationController-dummy.m */; };
+		2C1D7645055A531854CCD670E6386E53 /* UIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 44526C7F31BED4E068E7246836B4DEBD /* UIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1084B3AA23385E50B22DB5A34D46DBD0 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F950DD5EB80742B993717DB5FC51A29 /* GPBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98066E9C373ACB9CDB4BCCA0AB0A3172 /* GPBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		343D7C0E4CF047029C3EB20CD33F1B30 /* Pods-GPNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 610B5A7D34E5BA9521B8FA47CD3D6B31 /* Pods-GPNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E02D67A58218645B107ECD1E027AE /* UIImage+Diff.m */; };
+		37C1A863B6466B18844B7BC6F91594AD /* GPNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC641441AD5D52F61EBE1988D742E91 /* GPNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37C4E6681A4DA983CA5EF4DCCE3CD5E4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A417B5BAA1E05946D9C7DC15F79655B3 /* SystemConfiguration.framework */; };
+		3850D50F5E01CC8CBD146819C40D7774 /* GPNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84991185FDC94D4FECC222EFDD3C854 /* GPNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC7D6965F13D874A29C0514A6B48259 /* GPNavbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC7E7217FF3ABDD78023CC300D2FD02 /* GPNavbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F8ED72E89FCA4A818F266DC6D03D993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E03BB534881702077354D8E304AF8 /* Foundation.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 044FD6245BCFAB3D9A3B8EF567550C2B /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		487D808C4097A796D5CD14FD69CDB349 /* GPPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 385A260B3FA8C2CA65D9CC060C5A9317 /* GPPanGestureRecognizer.m */; };
+		487D808C4097A796D5CD14FD69CDB349 /* GPPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B32BC3FFB5A7EF0A27B14B27B43069 /* GPPanGestureRecognizer.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2068155E7E6C44BD10697CD147CDB3E8 /* FBSnapshotTestCase-dummy.m */; };
 		5992F82C6875AB19786AF97F300C0872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E03BB534881702077354D8E304AF8 /* Foundation.framework */; };
+		5D0ACC8D95683DCE7A3DA06D19851F62 /* GPTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A35CE65D3DCC65CE4163C39A6F7B69 /* GPTabBarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6298CD36D906D006193A2100B7B56971 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E87B4EE8F48E78BDEF575E8B684F1750 /* Reachability.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = A73B009F0910FA4D6E30804994952CDB /* UIImage+Compare.m */; };
-		69E5851470727E23D2CA89721B9B2C4D /* GPTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D315D5B75D35BB862B7C784DB4DE3980 /* GPTabBarButton.m */; };
+		69E5851470727E23D2CA89721B9B2C4D /* GPTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D18D1DED285D8128C097E7232E2047F2 /* GPTabBarButton.m */; };
 		6FB86D243EB146B2AF9F5874C8FDF179 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF42069B83A14B0E82EA11BD3632EED /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FE58B19228D3373BD30217C92031C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E03BB534881702077354D8E304AF8 /* Foundation.framework */; };
-		72B14E22C57608BB41605FDFC2F4DCFF /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6471CFAE287CD56BF9016CA82D3C1 /* UIView+Snapshot.m */; };
+		72B14E22C57608BB41605FDFC2F4DCFF /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F123CA9D430B92D1E53D711D3576D4E /* UIView+Snapshot.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1450B625B8434E288B0D296AC247E729 /* UIImage+Snapshot.m */; };
 		791CC9E8DFC4A6B509CFF7ED1F89A3FA /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C5C6073FAB957C12506236F537619B /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D084115C64A050E00A942EF0D68C577 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D1BC1CB21FDB1FE2360947B871BAA8 /* UIKit.framework */; };
-		8A26C71F5F08A462CE584DEA03778141 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639129553C53FD06F53FC92322E24D1C /* GPBaseViewController.m */; };
+		8A26C71F5F08A462CE584DEA03778141 /* GPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CCDBE88D618C3B58C706A2E903E95A /* GPBaseViewController.m */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E03BB534881702077354D8E304AF8 /* Foundation.framework */; };
+		964262BF17E88EF532083CC1E7A47B02 /* GPBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B80EA755BF54BA5BEDEF014530F780F /* GPBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC150E88C945B4888DBD9C1B8877217 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C5E300A138FECCFA97D81DE39A43A9 /* FBSnapshotTestController.m */; };
-		A69AA90DAF19235F2DC24C86DD03389F /* GPNavbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D8F3E28EEAE2C9E74D103CF3D1B6E6 /* GPNavbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7E3C7316F5EFB4FE11385E5C7E78B46 /* GPTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0356937E90472528FA8AFAAFEE09183F /* GPTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC6A8EA9565A0BC2D8827F249C65550D /* GPBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C66B21327C83B250A0B5646C21002B6 /* GPBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B07098FF30C22453EA63DF3E7A85B088 /* Pods-GPNavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EF2B018DE1B783CBC6AE3C1E7E4526 /* Pods-GPNavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1D1B37501F26C387FAFD8C80B0299D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E03BB534881702077354D8E304AF8 /* Foundation.framework */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95E7A6DEE9A5BFAB7CA45AF1E8E7223 /* QuartzCore.framework */; };
-		B3DB91A2597F10AA09965D6FA83DD0DB /* GPPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B11B388F00BDE1470EA329F92F8717 /* GPPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED28C2F31A3F3099D993779B4374A45B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B99CF5037E6FE8A0672B564EC7577822 /* GPNavbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2059D3B03959ABDCDEF3A4DEDF4BCEF /* GPNavbarView.m */; };
+		B99CF5037E6FE8A0672B564EC7577822 /* GPNavbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E97D58E10D319C4ED9DB41EF09FBDA81 /* GPNavbarView.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BA47BE03B89DB921C25EBBBF27CEF0BC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2069ACE4EC2BD4C938071DC09545FAA2 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = BE15255BA45B736E0F28A519C66ED234 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C05B6E946E177CE92E492D0B95374DD5 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BFED8223AF56ADDB6D32A688B523B1 /* Reachability.framework */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7E5A6234B031F14613C2C81AEC3AD8 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CD33D6CDA6A39B4AFA426B3834632DEF /* GPTabBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D2CD6F55588013CF49103334D0AB4E /* GPTabBarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D035E31126DB1A2BCF16061D6321CCE5 /* GPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC81C62973B0BE418DFE53DC782119A /* GPBaseNavigationController.m */; };
-		D68EA765DFE10DFE4C8AD747BB5CE7D4 /* GPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF473F59106BEA11CC4D11F8C78EEB /* GPTabBar.m */; };
+		D035E31126DB1A2BCF16061D6321CCE5 /* GPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C658D347052D56791676ECABE0064CCA /* GPBaseNavigationController.m */; };
+		D68EA765DFE10DFE4C8AD747BB5CE7D4 /* GPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B4B908AA9C40DBAB7B59C94C4389B4 /* GPTabBar.m */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CD267F2052107453FDC5673461598BB1 /* FBSnapshotTestCasePlatform.m */; };
-		E80C7FDCE620BA08B89748368FC5E519 /* GPRootUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE95F53DA2E74A6AE3ACA8476763794 /* GPRootUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB6DC4A8ED26B0E7250EAEF80071D798 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A1FCBE5CE7007F79B7F4F5FDCCBD19 /* ReplaceMe.m */; };
-		EDCEFD2937995A360F112E16A3E9CF97 /* GPNavtionBarDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 33902EEA1403CBBBCA3CD908EC1F08DE /* GPNavtionBarDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6E6CBC4EB5E8623051594B167ECBED0 /* UIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4B485AA66A2E8F8A79BAD75BA23C38 /* UIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB6DC4A8ED26B0E7250EAEF80071D798 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3729B00AAECE934B261746B0DC41CE /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,58 +95,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003D6D33EF87DC3B7E23CF54E440FC07 /* GPNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPNavigationController.xcconfig; sourceTree = "<group>"; };
 		01E01DC1E7A122FACC94634FC1D85CFA /* Pods-GPNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0356937E90472528FA8AFAAFEE09183F /* GPTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTabBar.h; sourceTree = "<group>"; };
 		044FD6245BCFAB3D9A3B8EF567550C2B /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		04DDE46DB38ECFBAFDD445EFC3E63AB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E04170C9FE2D42291E93096BCBBF9B /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
 		05340C028A20FDFC9E95E9EEFDED497E /* Pods-GPNavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPNavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		07B3DA45AC726979840D58457C8D70E7 /* Pods-GPNavigationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPNavigationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		09640F60376AF62DF5D44A33B4E0EDAA /* GPNavtionBarDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPNavtionBarDefines.h; sourceTree = "<group>"; };
 		0D084115C64A050E00A942EF0D68C577 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1084B3AA23385E50B22DB5A34D46DBD0 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1450B625B8434E288B0D296AC247E729 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		1EB1C667836CE95D0C33ADC5712F92C4 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2068155E7E6C44BD10697CD147CDB3E8 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		2069ACE4EC2BD4C938071DC09545FAA2 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		26D11D75AE3BF75E2507F2F8092C6659 /* GPNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		27A26467338969925E2684DC5EDFEDD2 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		33902EEA1403CBBBCA3CD908EC1F08DE /* GPNavtionBarDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPNavtionBarDefines.h; sourceTree = "<group>"; };
-		385A260B3FA8C2CA65D9CC060C5A9317 /* GPPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPPanGestureRecognizer.m; sourceTree = "<group>"; };
+		29CCDBE88D618C3B58C706A2E903E95A /* GPBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
+		367B3DA38F671CFA54C3F8BB45DB674A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EF587233C2CA9600FAEB950C84EEC0D /* Pods-GPNavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPNavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3FD21E4C0539E282E881BCD3E037FFC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436EA3C9012671E594B6057402482E8B /* Pods-GPNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49094FA26F5F6BAF72A9CD5566171695 /* GPNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GPNavigationController.modulemap; sourceTree = "<group>"; };
+		44526C7F31BED4E068E7246836B4DEBD /* UIView+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
 		4AEE5FC5CCE2D18EC424769F87C0FAFA /* Pods-GPNavigationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPNavigationController_Tests-resources.sh"; sourceTree = "<group>"; };
-		4BC6471CFAE287CD56BF9016CA82D3C1 /* UIView+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		4DE2EF482C87B29002ECB97659078E71 /* GPTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTabBar.h; sourceTree = "<group>"; };
 		5390C5E8F27960DEB37FF23213E6D899 /* Pods-GPNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
 		5832824296E52E739EF39572DE734145 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		59C5C6073FAB957C12506236F537619B /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
-		5C66B21327C83B250A0B5646C21002B6 /* GPBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
+		5CC641441AD5D52F61EBE1988D742E91 /* GPNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPNavigationController.h; sourceTree = "<group>"; };
 		5CFA2A4AE7488C290AC162D01205A898 /* Pods_GPNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPNavigationController_Example.framework; path = "Pods-GPNavigationController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDDB6411D4E3BB272196232FDF63E45 /* Pods-GPNavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GPNavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F7E5A6234B031F14613C2C81AEC3AD8 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		610B5A7D34E5BA9521B8FA47CD3D6B31 /* Pods-GPNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		639129553C53FD06F53FC92322E24D1C /* GPBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBaseViewController.m; sourceTree = "<group>"; };
+		64B64985F1F06B10C4200447972B9DB8 /* GPPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPPanGestureRecognizer.h; sourceTree = "<group>"; };
 		6BE229FA6CFFBD7BB8D4204A2A726ECB /* Pods-GPNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GPNavigationController_Example.modulemap"; sourceTree = "<group>"; };
-		6CE95F53DA2E74A6AE3ACA8476763794 /* GPRootUIView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPRootUIView.h; sourceTree = "<group>"; };
-		71A1FCBE5CE7007F79B7F4F5FDCCBD19 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GPNavigationController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		73489215277C463E750EF6486A7F25CF /* Pods-GPNavigationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GPNavigationController_Example-dummy.m"; sourceTree = "<group>"; };
-		75D7DDC90C2BCCDAFBA0CF26730F3221 /* GPBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBaseNavigationController.h; sourceTree = "<group>"; };
-		7C4B485AA66A2E8F8A79BAD75BA23C38 /* UIView+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		7992F24B8A89D483FA54DA32B8BB75D4 /* GPNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPNavigationController-dummy.m"; sourceTree = "<group>"; };
+		7B80EA755BF54BA5BEDEF014530F780F /* GPBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBaseViewController.h; sourceTree = "<group>"; };
 		826736A13BA0C21A6B74312425AAFDEA /* Pods-GPNavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GPNavigationController_Tests.modulemap"; sourceTree = "<group>"; };
-		82B11B388F00BDE1470EA329F92F8717 /* GPPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPPanGestureRecognizer.h; sourceTree = "<group>"; };
 		859E02D67A58218645B107ECD1E027AE /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		862E4F72B957718D2A40FD949D2C93CB /* Pods-GPNavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPNavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8DBF473F59106BEA11CC4D11F8C78EEB /* GPTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTabBar.m; sourceTree = "<group>"; };
+		89B4B908AA9C40DBAB7B59C94C4389B4 /* GPTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTabBar.m; sourceTree = "<group>"; };
+		8F123CA9D430B92D1E53D711D3576D4E /* UIView+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		8FF42069B83A14B0E82EA11BD3632EED /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		92B1159EE59A8343C144257BEED3900F /* GPNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPNavigationController-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96D8F3E28EEAE2C9E74D103CF3D1B6E6 /* GPNavbarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPNavbarView.h; sourceTree = "<group>"; };
-		970BBCCAA4408937688B9576F3410838 /* GPNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GPNavigationController-dummy.m"; sourceTree = "<group>"; };
+		98066E9C373ACB9CDB4BCCA0AB0A3172 /* GPBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPBaseNavigationController.h; sourceTree = "<group>"; };
 		9CC150E88C945B4888DBD9C1B8877217 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		9EBCBD4CB24CEAD30F8BCDC4BFB34CD8 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECA8A9FCCEE5BD5ADE074627856659B /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		A0A35CE65D3DCC65CE4163C39A6F7B69 /* GPTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTabBarButton.h; sourceTree = "<group>"; };
 		A417B5BAA1E05946D9C7DC15F79655B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		A73B009F0910FA4D6E30804994952CDB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		A95E7A6DEE9A5BFAB7CA45AF1E8E7223 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -154,18 +149,19 @@
 		B2BFED8223AF56ADDB6D32A688B523B1 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4EF2B018DE1B783CBC6AE3C1E7E4526 /* Pods-GPNavigationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GPNavigationController_Example-umbrella.h"; sourceTree = "<group>"; };
 		B6848A7C141C6D750AFC56EB17965DF2 /* Pods-GPNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B7D2CD6F55588013CF49103334D0AB4E /* GPTabBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPTabBarButton.h; sourceTree = "<group>"; };
 		B8B4FA0B6555FBD69B1AA4FF2781F8AB /* GPNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GPNavigationController.framework; path = GPNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9342232B21006FED4496F860F4AEE8C /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Reachability.modulemap; sourceTree = "<group>"; };
 		BA47BE03B89DB921C25EBBBF27CEF0BC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		BE15255BA45B736E0F28A519C66ED234 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		BEA53E1F7A9C5774C17FAB69FCEBA4AD /* GPNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		C3A17942AC2D544D00D503FD165279A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C49FF1FBF858ABDEBA2BDE5B83794929 /* Pods-GPNavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GPNavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C658D347052D56791676ECABE0064CCA /* GPBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBaseNavigationController.m; sourceTree = "<group>"; };
+		C84991185FDC94D4FECC222EFDD3C854 /* GPNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GPNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		CB3729B00AAECE934B261746B0DC41CE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GPNavigationController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CCD003FBB9260F74FD6F8EA3F9E5941F /* Pods_GPNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GPNavigationController_Tests.framework; path = "Pods-GPNavigationController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD267F2052107453FDC5673461598BB1 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		CDC81C62973B0BE418DFE53DC782119A /* GPBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPBaseNavigationController.m; sourceTree = "<group>"; };
-		D315D5B75D35BB862B7C784DB4DE3980 /* GPTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTabBarButton.m; sourceTree = "<group>"; };
-		D699F0A34FB7388858CD7504BD722E01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18D1DED285D8128C097E7232E2047F2 /* GPTabBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPTabBarButton.m; sourceTree = "<group>"; };
 		D8D1BC1CB21FDB1FE2360947B871BAA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DCF8B56956511534F36E68A3E6870BDA /* Pods-GPNavigationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GPNavigationController_Example-resources.sh"; sourceTree = "<group>"; };
 		DDE0178320BE95EB62DE759A4C9F82DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -174,10 +170,14 @@
 		E451B7F1C48893794B238884C0B05614 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		E87B4EE8F48E78BDEF575E8B684F1750 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E90E03BB534881702077354D8E304AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E97D58E10D319C4ED9DB41EF09FBDA81 /* GPNavbarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPNavbarView.m; sourceTree = "<group>"; };
 		ED28C2F31A3F3099D993779B4374A45B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		F05008D7AA42A70A64FEE9001F9AA96C /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		F2059D3B03959ABDCDEF3A4DEDF4BCEF /* GPNavbarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPNavbarView.m; sourceTree = "<group>"; };
+		F4B32BC3FFB5A7EF0A27B14B27B43069 /* GPPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPPanGestureRecognizer.m; sourceTree = "<group>"; };
+		F5382850AD9A804B8310D28E074FFD76 /* GPNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GPNavigationController.xcconfig; sourceTree = "<group>"; };
+		F61D1E3BCDE76393CC200319DE06FDF4 /* GPNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GPNavigationController.modulemap; sourceTree = "<group>"; };
 		F91783E8A1D596C08E2E8790D9E8D298 /* Pods-GPNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GPNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FDC7E7217FF3ABDD78023CC300D2FD02 /* GPNavbarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPNavbarView.h; sourceTree = "<group>"; };
 		FE5D9D7BDB2B0C840687F7B5DA3052F7 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,24 +251,18 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		0F1FF4B1C1B8FFC7B7B3F692722741DC /* GPRootUIView */ = {
+		0A6DD77E395C2C3315BC701DC1B86880 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				75D7DDC90C2BCCDAFBA0CF26730F3221 /* GPBaseNavigationController.h */,
-				CDC81C62973B0BE418DFE53DC782119A /* GPBaseNavigationController.m */,
-				5C66B21327C83B250A0B5646C21002B6 /* GPBaseViewController.h */,
-				639129553C53FD06F53FC92322E24D1C /* GPBaseViewController.m */,
-				96D8F3E28EEAE2C9E74D103CF3D1B6E6 /* GPNavbarView.h */,
-				F2059D3B03959ABDCDEF3A4DEDF4BCEF /* GPNavbarView.m */,
-				33902EEA1403CBBBCA3CD908EC1F08DE /* GPNavtionBarDefines.h */,
-				82B11B388F00BDE1470EA329F92F8717 /* GPPanGestureRecognizer.h */,
-				385A260B3FA8C2CA65D9CC060C5A9317 /* GPPanGestureRecognizer.m */,
-				6CE95F53DA2E74A6AE3ACA8476763794 /* GPRootUIView.h */,
-				7C4B485AA66A2E8F8A79BAD75BA23C38 /* UIView+Snapshot.h */,
-				4BC6471CFAE287CD56BF9016CA82D3C1 /* UIView+Snapshot.m */,
+				F61D1E3BCDE76393CC200319DE06FDF4 /* GPNavigationController.modulemap */,
+				F5382850AD9A804B8310D28E074FFD76 /* GPNavigationController.xcconfig */,
+				7992F24B8A89D483FA54DA32B8BB75D4 /* GPNavigationController-dummy.m */,
+				BEA53E1F7A9C5774C17FAB69FCEBA4AD /* GPNavigationController-prefix.pch */,
+				C84991185FDC94D4FECC222EFDD3C854 /* GPNavigationController-umbrella.h */,
+				367B3DA38F671CFA54C3F8BB45DB674A /* Info.plist */,
 			);
-			name = GPRootUIView;
-			path = GPNavigationController/Classes/GPRootUIView;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GPNavigationController";
 			sourceTree = "<group>";
 		};
 		20292963B4860937BBAE597AA5091985 /* Frameworks */ = {
@@ -327,6 +321,26 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		6811B4A45E7166682D30EE29EF763B99 /* GPNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				98066E9C373ACB9CDB4BCCA0AB0A3172 /* GPBaseNavigationController.h */,
+				C658D347052D56791676ECABE0064CCA /* GPBaseNavigationController.m */,
+				7B80EA755BF54BA5BEDEF014530F780F /* GPBaseViewController.h */,
+				29CCDBE88D618C3B58C706A2E903E95A /* GPBaseViewController.m */,
+				FDC7E7217FF3ABDD78023CC300D2FD02 /* GPNavbarView.h */,
+				E97D58E10D319C4ED9DB41EF09FBDA81 /* GPNavbarView.m */,
+				5CC641441AD5D52F61EBE1988D742E91 /* GPNavigationController.h */,
+				09640F60376AF62DF5D44A33B4E0EDAA /* GPNavtionBarDefines.h */,
+				64B64985F1F06B10C4200447972B9DB8 /* GPPanGestureRecognizer.h */,
+				F4B32BC3FFB5A7EF0A27B14B27B43069 /* GPPanGestureRecognizer.m */,
+				44526C7F31BED4E068E7246836B4DEBD /* UIView+Snapshot.h */,
+				8F123CA9D430B92D1E53D711D3576D4E /* UIView+Snapshot.m */,
+			);
+			name = GPNavigationController;
+			path = GPNavigationController/Classes/GPNavigationController;
+			sourceTree = "<group>";
+		};
 		69247C9D1715BD15A26FA95E7CE9F38F /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,20 +350,6 @@
 			);
 			name = Reachability;
 			path = Reachability;
-			sourceTree = "<group>";
-		};
-		7B524C6C4E7EA79CC6B472DAF005DCAE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				49094FA26F5F6BAF72A9CD5566171695 /* GPNavigationController.modulemap */,
-				003D6D33EF87DC3B7E23CF54E440FC07 /* GPNavigationController.xcconfig */,
-				970BBCCAA4408937688B9576F3410838 /* GPNavigationController-dummy.m */,
-				26D11D75AE3BF75E2507F2F8092C6659 /* GPNavigationController-prefix.pch */,
-				92B1159EE59A8343C144257BEED3900F /* GPNavigationController-umbrella.h */,
-				D699F0A34FB7388858CD7504BD722E01 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GPNavigationController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -362,6 +362,18 @@
 				C8A404558958BA1511B841CC3C02126D /* Products */,
 				AAD4E561958927F8E36DE69B5A1CBDDE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A6CB66D54BFF5BD4AC0E8FED3E48BA74 /* GPTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2EF482C87B29002ECB97659078E71 /* GPTabBar.h */,
+				89B4B908AA9C40DBAB7B59C94C4389B4 /* GPTabBar.m */,
+				A0A35CE65D3DCC65CE4163C39A6F7B69 /* GPTabBarButton.h */,
+				D18D1DED285D8128C097E7232E2047F2 /* GPTabBarButton.m */,
+			);
+			name = GPTabbar;
+			path = GPNavigationController/Classes/GPTabbar;
 			sourceTree = "<group>";
 		};
 		AAD4E561958927F8E36DE69B5A1CBDDE /* Targets Support Files */ = {
@@ -409,18 +421,6 @@
 			path = "Target Support Files/Pods-GPNavigationController_Example";
 			sourceTree = "<group>";
 		};
-		C5DEF94C9BEC76224FC93203EE17FC15 /* GPNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				71A1FCBE5CE7007F79B7F4F5FDCCBD19 /* ReplaceMe.m */,
-				0F1FF4B1C1B8FFC7B7B3F692722741DC /* GPRootUIView */,
-				EA5D1FAB215C02FEB0CB9163FFE36599 /* GPTabbar */,
-				7B524C6C4E7EA79CC6B472DAF005DCAE /* Support Files */,
-			);
-			name = GPNavigationController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C8A404558958BA1511B841CC3C02126D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,7 +448,7 @@
 		D8214CB167B97E1DC2F7EB95F8E4DFA1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5DEF94C9BEC76224FC93203EE17FC15 /* GPNavigationController */,
+				EA8F11337D7DA7DAB1447CBEF49DBCC9 /* GPNavigationController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -462,16 +462,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EA5D1FAB215C02FEB0CB9163FFE36599 /* GPTabbar */ = {
+		EA8F11337D7DA7DAB1447CBEF49DBCC9 /* GPNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				0356937E90472528FA8AFAAFEE09183F /* GPTabBar.h */,
-				8DBF473F59106BEA11CC4D11F8C78EEB /* GPTabBar.m */,
-				B7D2CD6F55588013CF49103334D0AB4E /* GPTabBarButton.h */,
-				D315D5B75D35BB862B7C784DB4DE3980 /* GPTabBarButton.m */,
+				CB3729B00AAECE934B261746B0DC41CE /* ReplaceMe.m */,
+				6811B4A45E7166682D30EE29EF763B99 /* GPNavigationController */,
+				A6CB66D54BFF5BD4AC0E8FED3E48BA74 /* GPTabbar */,
+				0A6DD77E395C2C3315BC701DC1B86880 /* Support Files */,
 			);
-			name = GPTabbar;
-			path = GPNavigationController/Classes/GPTabbar;
+			name = GPNavigationController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,28 +486,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		248915B56E573B34872A893759FFF78F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F950DD5EB80742B993717DB5FC51A29 /* GPBaseNavigationController.h in Headers */,
+				964262BF17E88EF532083CC1E7A47B02 /* GPBaseViewController.h in Headers */,
+				3AC7D6965F13D874A29C0514A6B48259 /* GPNavbarView.h in Headers */,
+				3850D50F5E01CC8CBD146819C40D7774 /* GPNavigationController-umbrella.h in Headers */,
+				37C1A863B6466B18844B7BC6F91594AD /* GPNavigationController.h in Headers */,
+				0DA0D04EF6E575E4BEF251A4C4EE067C /* GPNavtionBarDefines.h in Headers */,
+				10B7541EAC8C1BDA146C7CD7E3C42920 /* GPPanGestureRecognizer.h in Headers */,
+				152FBCFA1490FB3DBCC793E1AF316316 /* GPTabBar.h in Headers */,
+				5D0ACC8D95683DCE7A3DA06D19851F62 /* GPTabBarButton.h in Headers */,
+				2C1D7645055A531854CCD670E6386E53 /* UIView+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A0620CC5A81510F13D635229CCF043B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B07098FF30C22453EA63DF3E7A85B088 /* Pods-GPNavigationController_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3EC2E7A4DF45BFC57142B3AA1D15234C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F9979368926171E7E8DCD5AFA7C9C22 /* GPBaseNavigationController.h in Headers */,
-				AC6A8EA9565A0BC2D8827F249C65550D /* GPBaseViewController.h in Headers */,
-				A69AA90DAF19235F2DC24C86DD03389F /* GPNavbarView.h in Headers */,
-				0739DCA677BCBF79F503603F349D5598 /* GPNavigationController-umbrella.h in Headers */,
-				EDCEFD2937995A360F112E16A3E9CF97 /* GPNavtionBarDefines.h in Headers */,
-				B3DB91A2597F10AA09965D6FA83DD0DB /* GPPanGestureRecognizer.h in Headers */,
-				E80C7FDCE620BA08B89748368FC5E519 /* GPRootUIView.h in Headers */,
-				A7E3C7316F5EFB4FE11385E5C7E78B46 /* GPTabBar.h in Headers */,
-				CD33D6CDA6A39B4AFA426B3834632DEF /* GPTabBarButton.h in Headers */,
-				F6E6CBC4EB5E8623051594B167ECBED0 /* UIView+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +543,7 @@
 			buildPhases = (
 				BE2CF4DF2808219B7054F2EE88F5D672 /* Sources */,
 				47C7DAA181FD1808AB84EDED7DE38F2D /* Frameworks */,
-				3EC2E7A4DF45BFC57142B3AA1D15234C /* Headers */,
+				248915B56E573B34872A893759FFF78F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -746,7 +746,7 @@
 /* Begin XCBuildConfiguration section */
 		1570696D0776CFB9ED3E26315FDC4379 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 003D6D33EF87DC3B7E23CF54E440FC07 /* GPNavigationController.xcconfig */;
+			baseConfigurationReference = F5382850AD9A804B8310D28E074FFD76 /* GPNavigationController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -836,7 +836,7 @@
 		};
 		28BCBB3A7713DDB17D382A5E04032149 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 003D6D33EF87DC3B7E23CF54E440FC07 /* GPNavigationController.xcconfig */;
+			baseConfigurationReference = F5382850AD9A804B8310D28E074FFD76 /* GPNavigationController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

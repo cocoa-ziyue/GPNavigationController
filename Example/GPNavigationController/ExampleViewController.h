@@ -6,8 +6,8 @@
 //  Copyright (c) 2017 ziyue92. All rights reserved.
 //
 
-@import UIKit;
+#import <GPNavigationController/GPNavigationController.h>
 
-@interface GPViewController : UIViewController
+@interface ExampleViewController : GPBaseViewController
 
 @end
