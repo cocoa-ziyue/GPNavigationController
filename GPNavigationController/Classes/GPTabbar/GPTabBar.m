@@ -32,9 +32,39 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-    
+        self.backgroundColor = [UIColor whiteColor];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refreshTabBarButton:) name:@"AppConfigRequestDone" object:nil];
     }
     return self;
+}
+
+- (void)refreshTabBarButton:(NSNotification *)noti {
+    
+    NSDictionary *configData = noti.userInfo[@"body"][@"enabled_module"];
+    BOOL showLottery = [configData[@"lottery"] boolValue];
+    
+    [[NSUserDefaults standardUserDefaults] setBool:showLottery forKey:@"lottery"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    NSString *activityKey = @"activityNew";
+    BOOL activityNew = [[NSUserDefaults standardUserDefaults] boolForKey:activityKey];
+    if (!activityNew) {
+        GPTabBarButton *activityButton;
+        for (id views in self.subviews) {
+            if ([views isKindOfClass:[GPTabBarButton class]]) {
+                GPTabBarButton *button =  (GPTabBarButton *)views;
+                if ([button.item.title isEqualToString:@"活动"] || [button.item.title isEqualToString:@"Event"]) {
+                    activityButton = views;
+                }
+            }
+        }
+        if (showLottery) {
+            activityButton.redLabel.hidden = NO;
+        }else{
+            activityButton.redLabel.hidden = YES;
+        }
+        
+    }
 }
 
 - (void)addTabBarButtonWithItem:(UITabBarItem *)item {
@@ -63,8 +93,12 @@
     if ([self.delegate respondsToSelector:@selector(tabBar:didSelectedButtonFrom:to:)]) {
         [self.delegate tabBar:self didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
     }
-    if ([self.delegate respondsToSelector:@selector(tabBar:currentBtn:didSelectedButtonFrom:to:)]) {
-        [self.delegate tabBar:self currentBtn:button didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
+    
+    if (!button.redLabel.hidden) {
+        button.redLabel.hidden = YES;
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"activityNew"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
     }
     // 2.设置按钮的状态
     self.selectedButton.selected = NO;
@@ -99,7 +133,7 @@
 
     // 添加模糊效果
     UIToolbar *toobar = [[UIToolbar alloc] init];
-    toobar.barStyle = UIBarStyleBlackTranslucent;
+    toobar.barStyle = UIBarStyleDefault;
     toobar.translucent = YES;
     toobar.frame = self.bounds;
     [self insertSubview:toobar atIndex:0];

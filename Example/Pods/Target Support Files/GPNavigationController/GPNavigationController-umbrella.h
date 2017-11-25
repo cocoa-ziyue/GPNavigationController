@@ -10,16 +10,16 @@
 #endif
 #endif
 
-#import "GPNavtionBarDefines.h"
-#import "GPRootUIView.h"
 #import "GPBaseNavigationController.h"
 #import "GPBaseViewController.h"
 #import "GPNavbarView.h"
+#import "GPNavtionBarDefines.h"
 #import "GPPanGestureRecognizer.h"
-#import "GPTabViewController.h"
+#import "GPRootUIView.h"
 #import "UIView+Snapshot.h"
 #import "GPTabBar.h"
 #import "GPTabBarButton.h"
+#import "GPTabBarRankButton.h"
 
 FOUNDATION_EXPORT double GPNavigationControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GPNavigationControllerVersionString[];

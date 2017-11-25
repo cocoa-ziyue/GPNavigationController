@@ -15,5 +15,5 @@
  传递进来的Item
  */
 @property (nonatomic, strong) UITabBarItem *item;
-
+@property (nonatomic, strong) UILabel *redLabel;
 @end

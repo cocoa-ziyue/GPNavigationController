@@ -1,24 +1,23 @@
 //
-//  TabBarButton.m
+//  TabBarRankButton.m
 //  GPGaming
 //
-//  Created by yzx on 15/5/19.
+//  Created by sy on 15/9/15.
 //  Copyright (c) 2015年 weipei. All rights reserved.
 //
 
-#import "GPTabBarButton.h"
-
+#import "GPTabBarRankButton.h"
 #define IWTabBarButtonImageRatio 0.6
 
 #define GPColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
 
 
-@implementation GPTabBarButton
+@implementation GPTabBarRankButton
+
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self addSubview:self.redLabel];
         // 图标居中
         self.imageView.contentMode = UIViewContentModeCenter;
         // 文字居中
@@ -26,8 +25,18 @@
         // 字体大小
         self.titleLabel.font = [UIFont systemFontOfSize:11];
         // 文字颜色
+        //[self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        // [self setTitleColor:HWColor(20, 185, 214) forState:UIControlStateSelected];
+
         [self setTitleColor:GPColor(137, 137, 137) forState:UIControlStateNormal];
-        [self setTitleColor:GPColor(60, 60, 60) forState:UIControlStateSelected];
+        [self setTitleColor:GPColor(20, 185, 214) forState:UIControlStateSelected];
+
+
+        //        // 添加一个提醒数字按钮
+        //        IWBadgeButton *badgeButton = [[IWBadgeButton alloc] init];
+        //        badgeButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin;
+        //        [self addSubview:badgeButton];
+        //        self.badgeButton = badgeButton;
     }
     return self;
 }
@@ -54,11 +63,13 @@
 // 设置item
 - (void)setItem:(UITabBarItem *)item {
     _item = item;
+
     // KVO 监听属性改变
     [item addObserver:self forKeyPath:@"badgeValue" options:0 context:nil];
     [item addObserver:self forKeyPath:@"title" options:0 context:nil];
     [item addObserver:self forKeyPath:@"image" options:0 context:nil];
     [item addObserver:self forKeyPath:@"selectedImage" options:0 context:nil];
+
     [self observeValueForKeyPath:nil ofObject:nil change:nil context:nil];
 }
 
@@ -84,6 +95,18 @@
     // 设置图片
     [self setImage:self.item.image forState:UIControlStateNormal];
     [self setImage:self.item.selectedImage forState:UIControlStateSelected];
+
+    // 设置提醒数字
+    //    self.badgeButton.badgeValue = self.item.badgeValue;
+
+    // 设置提醒数字的位置
+    //    CGFloat badgeY = 5;
+    //    CGFloat badgeX = self.frame.size.width - self.badgeButton.frame.size.width - 10;
+    ////    CGRect badgeF = self.badgeButton.frame;
+    //    badgeF.origin.x = badgeX;
+    //    badgeF.origin.y = badgeY;
+    //    self.badgeButton.frame = badgeF;
 }
+
 
 @end

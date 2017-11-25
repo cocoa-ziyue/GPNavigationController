@@ -9,14 +9,13 @@
 #import "GPNavbarView.h"
 #import "GPNavtionBarDefines.h"
 
-
 @implementation GPNavbarView
 #pragma mark -
 #pragma mark Init
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor blackColor];
+        self.navColor? (self.backgroundColor = self.navColor) : (self.backgroundColor = [UIColor blackColor]);
         [self setBuler];
     }
     return self;
@@ -49,7 +48,7 @@
 - (void)setDetailDic:(NSMutableDictionary *)detailDic {
     _detailDic = detailDic;
 
-    CGSize size;
+    CGSize size = CGSizeZero;
     UIFont *font = [UIFont systemFontOfSize:15.0f];
     CGFloat offset = 5;
 
@@ -62,6 +61,7 @@
     if ([detailDic valueForKey:Nav_Left]) {
         self.baseLeftBtn.backgroundColor = [UIColor clearColor];
         [self addSubview:_baseLeftBtn];
+        _baseLeftBtn.titleLabel.text = nil;
         UIImage *img = [UIImage imageNamed:[detailDic valueForKey:Nav_Left]];
         [_baseLeftBtn setImage:img forState:UIControlStateNormal];
         size = img.size;
@@ -72,6 +72,7 @@
     if ([detailDic valueForKey:Nav_LeftTxt]) {
         self.baseLeftBtn.backgroundColor = [UIColor clearColor];
         [self addSubview:_baseLeftBtn];
+        _baseLeftBtn.imageView.image = nil;
         [_baseLeftBtn setTitle:[detailDic valueForKey:Nav_LeftTxt] forState:UIControlStateNormal];
         [_baseLeftBtn setTitleColor:GPColor(205, 218, 220) forState:UIControlStateNormal];
         _baseLeftBtn.titleLabel.font = font;
@@ -106,6 +107,17 @@
 #pragma mark -
 #pragma mark Accesstor methods
 
+- (UIView *)redHotView {
+    if (!_redHotView) {
+        _redHotView = [[UIView alloc]init];
+        _redHotView.backgroundColor = [UIColor colorWithRed:255/255.0 green:81/255.0 blue:58/255.0 alpha:1];
+        _redHotView.layer.cornerRadius = 4.f;
+        _redHotView.layer.masksToBounds = YES;
+        _redHotView.hidden = YES;
+    }
+    return _redHotView;
+}
+
 - (UILabel *)baseTitleLbl {
     if (!_baseTitleLbl) {
         _baseTitleLbl = [[UILabel alloc] init];
@@ -119,6 +131,8 @@
 - (UIButton *)baseRightBtn {
     if (!_baseRightBtn) {
         _baseRightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _baseRightBtn.imageView.contentMode = UIViewContentModeScaleAspectFill;
+        _baseRightBtn.imageView.clipsToBounds = YES;
         [_baseRightBtn addTarget:self action:@selector(rightBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _baseRightBtn;
@@ -127,6 +141,8 @@
 - (UIButton *)baseLeftBtn {
     if (!_baseLeftBtn) {
         _baseLeftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _baseLeftBtn.imageView.contentMode = UIViewContentModeScaleAspectFill;
+        _baseLeftBtn.imageView.clipsToBounds = YES;
         [_baseLeftBtn addTarget:self action:@selector(leftBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _baseLeftBtn;
