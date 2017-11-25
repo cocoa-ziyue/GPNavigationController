@@ -19,7 +19,6 @@
 #import "UIView+Snapshot.h"
 #import "GPTabBar.h"
 #import "GPTabBarButton.h"
-#import "GPTabBarRankButton.h"
 
 FOUNDATION_EXPORT double GPNavigationControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GPNavigationControllerVersionString[];

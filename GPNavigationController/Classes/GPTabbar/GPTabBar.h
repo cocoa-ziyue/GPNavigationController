@@ -28,6 +28,10 @@
 
 @interface GPTabBar : UIView
 
+@property (nonatomic, strong) UIColor *tabColor;
+@property (nonatomic, strong) UIColor *textNormalColor;
+@property (nonatomic, strong) UIColor *textSelectedColor;
+
 @property (nonatomic, weak) id<TabBarDelegate> delegate;
 
 /**

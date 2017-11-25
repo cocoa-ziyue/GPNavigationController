@@ -2,38 +2,41 @@
 //  TabBarButton.m
 //  GPGaming
 //
-//  Created by yzx on 15/5/19.
-//  Copyright (c) 2015年 weipei. All rights reserved.
+//  Created by sgp on 15/5/19.
+//  Copyright (c) 2015年 sgp. All rights reserved.
 //
 
 #import "GPTabBarButton.h"
 
 #define IWTabBarButtonImageRatio 0.6
 
-#define GPColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
-
-
 @implementation GPTabBarButton
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self addSubview:self.redLabel];
         // 图标居中
         self.imageView.contentMode = UIViewContentModeCenter;
         // 文字居中
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         // 字体大小
         self.titleLabel.font = [UIFont systemFontOfSize:11];
-        // 文字颜色
-        [self setTitleColor:GPColor(137, 137, 137) forState:UIControlStateNormal];
-        [self setTitleColor:GPColor(60, 60, 60) forState:UIControlStateSelected];
     }
     return self;
 }
 
 // 重写去掉高亮状态
 - (void)setHighlighted:(BOOL)highlighted {
+    
+}
+
+- (void)setTextNormalColor:(UIColor *)textNormalColor {
+    // 文字颜色
+    [self setTitleColor:self.textNormalColor forState:UIControlStateNormal];
+}
+- (void)setTextSelectColor:(UIColor *)textSelectColor {
+    // 文字颜色
+    [self setTitleColor:self.textSelectColor forState:UIControlStateSelected];
 }
 
 // 内部图片的frame

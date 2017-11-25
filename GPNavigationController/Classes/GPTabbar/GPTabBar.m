@@ -9,9 +9,6 @@
 #import "GPTabBar.h"
 #import "GPTabBarButton.h"
 
-#define GPColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
-
-
 @interface GPTabBar ()
 
 /**
@@ -32,44 +29,16 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor whiteColor];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refreshTabBarButton:) name:@"AppConfigRequestDone" object:nil];
+        self.tabColor ? (self.backgroundColor = self.tabColor):(self.backgroundColor = [UIColor whiteColor]);
     }
     return self;
-}
-
-- (void)refreshTabBarButton:(NSNotification *)noti {
-    
-    NSDictionary *configData = noti.userInfo[@"body"][@"enabled_module"];
-    BOOL showLottery = [configData[@"lottery"] boolValue];
-    
-    [[NSUserDefaults standardUserDefaults] setBool:showLottery forKey:@"lottery"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    
-    NSString *activityKey = @"activityNew";
-    BOOL activityNew = [[NSUserDefaults standardUserDefaults] boolForKey:activityKey];
-    if (!activityNew) {
-        GPTabBarButton *activityButton;
-        for (id views in self.subviews) {
-            if ([views isKindOfClass:[GPTabBarButton class]]) {
-                GPTabBarButton *button =  (GPTabBarButton *)views;
-                if ([button.item.title isEqualToString:@"活动"] || [button.item.title isEqualToString:@"Event"]) {
-                    activityButton = views;
-                }
-            }
-        }
-        if (showLottery) {
-            activityButton.redLabel.hidden = NO;
-        }else{
-            activityButton.redLabel.hidden = YES;
-        }
-        
-    }
 }
 
 - (void)addTabBarButtonWithItem:(UITabBarItem *)item {
     // 1.创建按钮
     GPTabBarButton *button = [[GPTabBarButton alloc] init];
+    button.textSelectColor = self.textSelectedColor;
+    button.textSelectColor = self.textSelectedColor;
     [self addSubview:button];
 
     // 2.设置数据
@@ -92,13 +61,6 @@
     // 1.通知代理
     if ([self.delegate respondsToSelector:@selector(tabBar:didSelectedButtonFrom:to:)]) {
         [self.delegate tabBar:self didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
-    }
-    
-    if (!button.redLabel.hidden) {
-        button.redLabel.hidden = YES;
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"activityNew"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-        
     }
     // 2.设置按钮的状态
     self.selectedButton.selected = NO;
