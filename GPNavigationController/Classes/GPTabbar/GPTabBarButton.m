@@ -31,12 +31,13 @@
 }
 
 - (void)setTextNormalColor:(UIColor *)textNormalColor {
-    // 文字颜色
-    [self setTitleColor:self.textNormalColor forState:UIControlStateNormal];
+    // normal文字颜色
+    [self setTitleColor:textNormalColor forState:UIControlStateNormal];
 }
+
 - (void)setTextSelectColor:(UIColor *)textSelectColor {
-    // 文字颜色
-    [self setTitleColor:self.textSelectColor forState:UIControlStateSelected];
+    // select文字颜色
+    [self setTitleColor:textSelectColor forState:UIControlStateSelected];
 }
 
 // 内部图片的frame

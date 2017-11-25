@@ -9,19 +9,25 @@
 #import <UIKit/UIKit.h>
 
 @class GPTabBar;
+@class GPTabBarButton;
 
 @protocol TabBarDelegate <NSObject>
 
 @optional
 
 /**
- GPTabBar代理
-
  @param tabBar GPTabBar
  @param from 上一个选择的按钮的Tag值
  @param to 将要选择的按钮的Tag值
  */
 - (void)tabBar:(GPTabBar *)tabBar didSelectedButtonFrom:(int)from to:(int)to;
+
+/**
+ @param tabBar GPTabBar
+ @param from 上一个选择的按钮的Tag值
+ @param to 将要选择的按钮的Tag值
+ */
+- (void)tabBar:(GPTabBar *)tabBar currentBtn:(GPTabBarButton *)button didSelectedButtonFrom:(int)from to:(int)to;
 
 @end
 

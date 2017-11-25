@@ -38,7 +38,7 @@
     // 1.创建按钮
     GPTabBarButton *button = [[GPTabBarButton alloc] init];
     button.textSelectColor = self.textSelectedColor;
-    button.textSelectColor = self.textSelectedColor;
+    button.textNormalColor = self.textNormalColor;
     [self addSubview:button];
 
     // 2.设置数据
@@ -61,6 +61,9 @@
     // 1.通知代理
     if ([self.delegate respondsToSelector:@selector(tabBar:didSelectedButtonFrom:to:)]) {
         [self.delegate tabBar:self didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
+    }
+    if ([self.delegate respondsToSelector:@selector(tabBar:currentBtn:didSelectedButtonFrom:to:)]) {
+        [self.delegate tabBar:self currentBtn:button didSelectedButtonFrom:(short)self.selectedButton.tag to:(short)button.tag];
     }
     // 2.设置按钮的状态
     self.selectedButton.selected = NO;
