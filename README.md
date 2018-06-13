@@ -18,7 +18,9 @@ iOS高度自定义导航栏+Tabbar(高斯模糊)基础UI框架
 怎么执行Example工程？下载或克隆项目到本地，cd到Example目录下，执行pod install成功后，Cmd+R即可。
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 ```
-## Requirements
+## Requirements  
+
+Xcode 9.0 +, iOS 8.0 +
 
 ## Installation
 
