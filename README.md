@@ -3,9 +3,8 @@ iOS高度自定义导航栏+Tabbar(高斯模糊)基础UI框架
 完美适应iOS7+系统
 导航栏可便捷高度定制UI动效等
 支持Pod库引用，加入了pod仓库  
-效果示意图:
+效果示意图如下:  
 ![image](https://github.com/cocoa-ziyue/folder/blob/master/2018-06-13%2009_23_15.gif)
-
 
 # GPNavigationController
 
