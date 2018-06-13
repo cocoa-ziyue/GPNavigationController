@@ -33,7 +33,7 @@ pod "GPNavigationController"
 
 ## Author
 
-ziyue92, shugangpeng@GPgame.cn
+ziyue92, 326919031@qq.com
 
 ## License
 
